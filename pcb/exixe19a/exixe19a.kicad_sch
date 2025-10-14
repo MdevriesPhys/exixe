@@ -7978,7 +7978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED, anode/blue/red/green"
+		(property "Description" "Wurth Elektronik2 V, 3.2 V RGB LED 3528 (1411) SMD, WL-SFTW 150141M173100"
 			(at 31.75 31.75 0)
 			(effects
 				(font

@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.2,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,11 +48,34 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.27
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|35362422|32125000|4a8748e2-ff55-4268-9ba7-734eec48ed8c|9e6903d6-b1a2-48e8-bfd8-9e24297e7716",
+          ""
+        ],
+        [
+          "courtyards_overlap|36655000|32105000|90e3a12c-eb41-4a59-a383-db973eba74d4|9e6903d6-b1a2-48e8-bfd8-9e24297e7716",
+          ""
+        ],
+        [
+          "courtyards_overlap|39405000|33525000|154d45e0-b149-4bc2-9e2b-263c0c4e23ff|9e6903d6-b1a2-48e8-bfd8-9e24297e7716",
+          ""
+        ],
+        [
+          "courtyards_overlap|41405000|32125000|9e6903d6-b1a2-48e8-bfd8-9e24297e7716|fbc2076a-b93e-4618-9e32-5de3d19479bf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -180,7 +203,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +233,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -490,7 +521,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "exixe19a.step",
       "svg": "",
       "vrml": ""
     },
