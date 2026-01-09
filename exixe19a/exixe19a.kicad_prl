@@ -46,11 +46,10 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_5f555575",
+    "visible_layers": "ffffffff_ffffffff_ffffd5f5_5f555575",
     "zone_display_mode": 0
   },
   "git": {

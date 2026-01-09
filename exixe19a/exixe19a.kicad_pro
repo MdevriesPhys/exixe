@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -100,11 +100,15 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|40000000|46400000|93397fa6-ca5d-4824-ae2a-15a856013127|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|40000000|46400000|93397fa6-ca5d-4824-ae2a-15a856013127|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|40000000|59400000|5fad63c0-d793-49cb-a62d-3c3636e86238|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|40020000|33000000|9e6903d6-b1a2-48e8-bfd8-9e24297e7716|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|40000000|61850000|5fad63c0-d793-49cb-a62d-3c3636e86238|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -112,11 +116,23 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|40020000|33000000|9e6903d6-b1a2-48e8-bfd8-9e24297e7716|00000000-0000-0000-0000-000000000000",
+          "starved_thermal|37200000|57687500|b0dead8d-0851-413c-9fc0-a80c917ef35d|3ff43fd5-179d-4566-9e3c-14498e7a22fd|F.Cu",
           ""
         ],
         [
-          "starved_thermal|31100000|43950000|bb192703-4825-430a-ac93-b8640c2f22b6|ad6f6cde-1577-4341-a2a9-4dcde1b2ff94|F.Cu",
+          "starved_thermal|42800000|66012500|b0dead8d-0851-413c-9fc0-a80c917ef35d|1f5ae918-4626-4ead-b501-2561feb240ee|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|44950000|66200000|b0dead8d-0851-413c-9fc0-a80c917ef35d|835fb6e3-26a6-4cd0-9426-78e61426e7cc|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|45100000|33000000|b0dead8d-0851-413c-9fc0-a80c917ef35d|d13129d9-74d7-4a77-ad5a-bf95d44039ba|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|46850000|40400000|b0dead8d-0851-413c-9fc0-a80c917ef35d|fd8b2429-ff42-4f3b-899c-6f6400bc71f9|F.Cu",
           ""
         ]
       ],
@@ -562,7 +578,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Files/Mitchell/Personal/exixe/exixe19a/testing/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "exixe19a.step",
