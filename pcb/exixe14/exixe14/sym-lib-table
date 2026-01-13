@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "exixe14-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/exixe14-eagle-import.kicad_sym")(options "")(descr ""))
+)
