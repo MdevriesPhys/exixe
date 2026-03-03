@@ -10,11 +10,11 @@ void set_pwm(uint8_t pwm_arr[SPI_BUF_SIZE])
 {
   // if the most significant bit is 1, change the pwm duty cycle
   if(pwm_arr[15] & 0x80)
-    htim3.Instance->CCR3 = 127 - (pwm_arr[15] & 0x7f); // B
+    htim3.Instance->CCR3 = (pwm_arr[15] & 0x7f); // B
   if(pwm_arr[14] & 0x80)
-    htim14.Instance->CCR1 = 127 - (pwm_arr[14] & 0x7f); // G
+    htim14.Instance->CCR1 =(pwm_arr[14] & 0x7f); // G
   if(pwm_arr[13] & 0x80)
-    htim3.Instance->CCR4 = 127 - (pwm_arr[13] & 0x7f); // R
+    htim3.Instance->CCR4 = (pwm_arr[13] & 0x7f); // R
   if(pwm_arr[12] & 0x80)
     htim16.Instance->CCR1 = pwm_arr[12] & 0x7f; // right dot
   if(pwm_arr[11] & 0x80)

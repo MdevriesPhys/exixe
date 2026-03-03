@@ -10,11 +10,16 @@
 
 ![Alt text](resources/clocks.jpg)
 
+Forked from original dekuNukem repo, some modifications to boards and firmware.
+
 exixe is a miniature driver module for IN-12 and IN-14 Nixie tubes.
 
 It aims to simplify Nixie tube related projects by eliminating the need for obscure vintage driver chips and multiplexing circuits. Instead, you can control every digit and the RGB backlight via SPI using only 3 wires and 1 line of code.
 
 exixe is cheap, small and modular for easy integration. It is compatible with Arduino, Raspberry Pi, and virtually all embedded dev boards today.
+
+## Updated firmware 2026-03-03
+Original firmware for IN-14 boards had an issue where the LEDs would be slightly on when set to 0 brightness. This has been updating in exixie14.hex firmware. See [Getting started](getting_started.md) for information about reflashing.
 
 ## Buy exixe on Tindie!
 
@@ -71,7 +76,7 @@ Please see [technical_details.md](/technical_details.md)
 
 ## Supported tubes
 
-exixe-14 module is primarily designed for IN-14 Nixie tubes, but will also work with IN-16 and IN-19 tubes.
+exixe-14 module is primarily designed for IN-14 Nixie tubes, but will also work with IN-16 and IN-19 tubes. IN-19 specific board in development.
 
 exixe-12 module is primarily designed for IN-12 Nixie tubes, but works with IN-15 tubes as well.
 

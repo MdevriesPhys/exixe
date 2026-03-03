@@ -430,13 +430,12 @@ ARM Macro Assembler    Page 7
               00000000 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
-ork --depend=exixe\startup_stm32f042x6.d -oexixe\startup_stm32f042x6.o -I.\RTE\
-_exixe -IC:\Users\allen\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Incl
-ude -IC:\Users\allen\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.0.0\Drivers\C
-MSIS\Device\ST\STM32F0xx\Include --predefine="__MICROLIB SETA 1" --predefine="_
-_UVISION_VERSION SETA 529" --predefine="_RTE_ SETA 1" --predefine="STM32F042x6 
-SETA 1" --list=startup_stm32f042x6.lst startup_stm32f042x6.s
+Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M0 --depe
+nd=..\startup_stm32f042x6.d -o..\startup_stm32f042x6.o -I.\RTE\_exixe -IC:\User
+s\Mitch\AppData\Local\Arm\Packs\ARM\CMSIS\6.2.0\CMSIS\Core\Include --predefine=
+"__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
+SETA 543" --predefine="STM32F042x6 SETA 1" --predefine="_RTE_ SETA 1" --list=st
+artup_stm32f042x6.lst startup_stm32f042x6.s
 
 
 
@@ -954,4 +953,4 @@ Symbol: __main
       At line 168 in file startup_stm32f042x6.s
 Comment: __main used once
 2 symbols
-387 symbols in table
+388 symbols in table
